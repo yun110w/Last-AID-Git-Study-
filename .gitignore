@@ -1,0 +1,25 @@
+# 1. git version 관리에서 제외할 파일, 폴더를 여기 적습니다.
+# 2. *을 이용해 패턴을 주어 원하지 않는 파일명을 정할 수 있습니다.
+#   예시 1: *.txt -> .txt로 끝나는 파일은 영원히 커밋하지 않음.
+#   예시 2: test* -> test로 시작하는 파일, 폴더는 영원히 커밋하지 않음.
+# 3. !로 시작하는 패턴의 파일은 무시하지 않는다.
+
+# .vscode 하위의 모든 파일(두 개는 같은 뜻)
+.vscode/
+.vscode
+
+# 모든 file.c
+file.c
+# 최상위 폴더의 file.c
+/file.c
+
+# 모든 .hwp 확장자 파일
+*.hwp
+# .hwp 확장자지만 무시하지 않을 파일
+!exception_filename.hwp
+
+# logs 폴더 바로 안의 debug.log와 .c 파일들
+logs/debug.log
+logs/*.c
+# logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
+logs/**/debug.log
