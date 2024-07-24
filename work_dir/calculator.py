@@ -18,7 +18,7 @@ def divide(a, b):
 
 # hotfix 대상 함수
 def testPrint(): # a-z까지 출력하는 함수
-    print('abcdefghijklmnopqrstuvvxyz')
+    print('abcdefghijklmnopqrstuvwxyz')
 
 if __name__ == "__main__":
     testPrint()
