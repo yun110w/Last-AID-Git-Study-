@@ -13,7 +13,10 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    pass
+    if (b!=0):
+        return a/b
+    else:
+        return "please change b"
 
 
 # hotfix 대상 함수
