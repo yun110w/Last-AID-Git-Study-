@@ -1,19 +1,24 @@
 #import special_functions.py
 
-# def add(a, b):
-#     pass
 
 
-# def subtract(a, b):
-# 	pass
+def add(a, b):
+    return a+b
 
 
-# def multiply(a, b):
-#     pass
+def subtract(a, b):
+    return a-b
 
 
-# def divide(a, b):
-#     pass;
+def multiply(a, b):
+    return a*b
+
+
+def divide(a, b):
+    if (b!=0):
+        return a/b
+    else:
+        return "please change b"
 
 
 # hotfix 대상 함수
