@@ -32,4 +32,4 @@ if __name__ == "__main__":
     # print('|a| =', abs(a,b))
     # print('a % b =', mod(a,b))
     
-
+#오류해결
