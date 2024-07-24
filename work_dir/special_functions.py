@@ -8,4 +8,4 @@ def abs(a):
         return a
 
 def mod(a, b):
-    pass
+    return a%b
