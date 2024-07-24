@@ -1,5 +1,5 @@
 def pow(a, b):
-    pass
+    return a**b
 
 def abs(a):
     pass
