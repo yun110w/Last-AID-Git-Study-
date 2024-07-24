@@ -12,8 +12,8 @@ def multiply(a, b):
     pass
 
 
-# def divide(a, b):
-#     pass;
+def divide(a, b):
+    pass
 
 
 # hotfix 대상 함수
