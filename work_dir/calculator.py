@@ -1,7 +1,7 @@
 #import special_functions.py
 
-# def add(a, b):
-#     pass
+def add(a, b):
+    pass
 
 
 # def subtract(a, b):
